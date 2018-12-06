@@ -18,6 +18,14 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:83648ac98b104e961dfdf2dc4e538357c962a518cbf45eeb5d5a702f8092ecfb"
+  name = "github.com/yoshiki-ogawa/my-grpc-test"
+  packages = ["proto"]
+  pruneopts = "UT"
+  revision = "5fc8ef904b1be6f83f6878bb0dbdeabe21833104"
+
+[[projects]]
+  branch = "master"
   digest = "1:7a2e3d6819e7a97a877f8604e737901c6941e76d56ae98a51a1ca2f13de351fb"
   name = "golang.org/x/net"
   packages = [
@@ -120,6 +128,7 @@
     "github.com/golang/protobuf/proto",
     "github.com/golang/protobuf/ptypes",
     "github.com/golang/protobuf/ptypes/timestamp",
+    "github.com/yoshiki-ogawa/my-grpc-test/proto",
     "google.golang.org/grpc",
     "google.golang.org/grpc/reflection",
   ]
